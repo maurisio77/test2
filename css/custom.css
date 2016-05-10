@@ -1,0 +1,382 @@
+
+/*  nav  */ 
+
+#nav-menu {
+	margin-right: 30px;
+}
+
+#nav-menu li {
+	margin-right: 25px;
+}
+
+#nav-login {
+	font-size: 12px;
+}
+
+
+/*  log in  */ 
+
+.sign-up,.log-in{
+	border-radius: 50px;
+	border-color: grey;
+	color: grey;
+	background-color:rgba(0,0,0,0);
+	width: 49%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.form-inline{
+	margin-top:200px;
+	margin-bottom:10px;
+}
+
+
+.rule{
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+.form {
+	color: grey;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.button-login {
+	margin-bottom: 200px;
+}
+
+.button-email {
+	margin-right: 35px;
+}
+
+
+#opener-register, #opener-login, #opener-logout {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	border-color: grey;
+	color: grey;
+	background: transparent;
+	width: 40%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#register-email, #login-email {
+	
+	background: transparent;
+	border-color: grey;
+}
+
+#register-password, #login-password {
+	margin-top: 10px;
+	background: transparent;
+	border-color: grey;
+}
+
+.btn{
+	width: 100%;
+}
+
+
+#chartcontainer {
+	width: 100%;
+	height: 700px;
+}
+
+.payment{
+	margin-top: 100px;
+}
+
+
+
+/*  Symptoms  */ 
+
+#s-body img {
+	position:relative;
+    display:inline-block;
+    text-align:center;
+}
+
+.red-btn{
+	background-color: red;
+	border-radius: 25px;
+}
+
+
+@media (min-width: 350px) { 
+#button-1 {
+  	position:relative;
+    bottom:450px;
+    right:-120px;
+    width:100px;
+    height:30px;
+}
+
+#button-2 {
+  	position:relative;
+    bottom:460px;
+    right:-170px;
+    width:100px;
+    height:30px;
+}
+
+#button-3 {
+  	position:relative;
+    bottom:400px;
+    right:-135px;
+    width:100px;
+    height:30px;
+}
+
+#button-4 {
+  	position:relative;
+    bottom:390px;
+    right:-135px;
+    width:100px;
+    height:30px;
+}
+
+#button-5 {
+  	position:relative;
+    bottom:300px;
+    right:-100px;
+    width:100px;
+    height:30px;
+}
+
+#button-6 {
+  	position:relative;
+    bottom:310px;
+    right:-170px;
+    width:100px;
+    height:30px;
+}
+
+#button-7 {
+  	position:relative;
+    bottom:250px;
+    right:-150px;
+    width:100px;
+    height:30px;
+}
+}
+ 
+
+@media (min-width: 768px) { 
+#button-1 {
+  	position:relative;
+    bottom:1050px;
+    right:-300px;
+    width:100px;
+    height:30px;
+}
+
+#button-2 {
+  	position:relative;
+    bottom:1020px;
+    right:-430px;
+    width:100px;
+    height:30px;
+}
+
+#button-3 {
+  	position:relative;
+    bottom:810px;
+    right:-335px;
+    width:100px;
+    height:30px;
+}
+
+#button-4 {
+  	position:relative;
+    bottom:770px;
+    right:-335px;
+    width:100px;
+    height:30px;
+}
+
+#button-5 {
+  	position:relative;
+    bottom:500px;
+    right:-250px;
+    width:100px;
+    height:30px;
+}
+
+#button-6 {
+  	position:relative;
+    bottom:490px;
+    right:-420px;
+    width:100px;
+    height:30px;
+}
+
+#button-7 {
+  	position:relative;
+    bottom:350px;
+    right:-400px;
+    width:100px;
+    height:30px;
+}
+}
+
+
+@media (min-width: 1200px) { 
+#button-1 {
+  	position:relative;
+    bottom:1100px;
+    right:-510px;
+    width:100px;
+    height:30px;
+}
+
+#button-2 {
+  	position:relative;
+    bottom:1090px;
+    right:-640px;
+    width:100px;
+    height:30px;
+}
+
+#button-3 {
+  	position:relative;
+    bottom:900px;
+    right:-560px;
+    width:100px;
+    height:30px;
+}
+
+#button-4 {
+  	position:relative;
+    bottom:840px;
+    right:-560px;
+    width:100px;
+    height:30px;
+}
+
+#button-5 {
+  	position:relative;
+    bottom:550px;
+    right:-450px;
+    width:100px;
+    height:30px;
+}
+
+#button-6 {
+  	position:relative;
+    bottom:510px;
+    right:-650px;
+    width:100px;
+    height:30px;
+}
+
+#button-7 {
+  	position:relative;
+    bottom:350px;
+    right:-600px;
+    width:100px;
+    height:30px;
+}
+}
+
+
+
+/*  log in  */ 
+
+.description1 {
+	font-size: 20px;
+}
+
+.description2 {
+	font-size: 30px;
+}
+
+
+
+/*  Radio button  */ 
+
+.s-radio label.btn span {
+  font-size: 1.5em ;
+}
+
+.s-radio label input[type="radio"] ~ i.fa.fa-circle-o{
+    color: #777;    display: inline;
+}
+
+.s-radio label input[type="radio"] ~ i.fa.fa-check-circle-o{
+    display: none;
+}
+
+.s-radio label input[type="radio"]:checked ~ i.fa.fa-circle-o{
+    display: none;
+}
+
+.s-radio label input[type="radio"]:checked ~ i.fa.fa-check-circle-o{
+    color: #777;    display: inline;
+}
+
+.s-radio label:hover input[type="radio"] ~ i.fa {
+	color: #777;
+}
+
+.s-radio label input[type="checkbox"] ~ i.fa.fa-square-o{
+    color: #777;    display: inline;
+}
+
+.s-radio label input[type="checkbox"] ~ i.fa.fa-check-square-o{
+    display: none;
+}
+
+.s-radio label input[type="checkbox"]:checked ~ i.fa.fa-square-o{
+    display: none;
+}
+
+.s-radio label input[type="checkbox"]:checked ~ i.fa.fa-check-square-o{
+    color: #777;    display: inline;
+}
+
+.s-radio label:hover input[type="checkbox"] ~ i.fa {
+	color: #777;
+}
+
+div[data-toggle="buttons"] label.active{
+    color: #777;
+}
+
+div[data-toggle="buttons"] label {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 10px;
+font-size: 18px;
+font-weight: normal;
+line-height: 2em;
+text-align: left;
+white-space: nowrap;
+vertical-align: top;
+cursor: pointer;
+background-color: none;
+border: 0px solid 
+#777;
+border-radius: 3px;
+color: #777;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+div[data-toggle="buttons"] label:hover {
+color: #888;
+}
+
+div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+

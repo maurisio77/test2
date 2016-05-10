@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Symptoms</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://cdn.firebase.com/v0/firebase.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html"><img src="img/symptoms-logo.png" alt=""></a>
+            </div>            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                 <ul id="nav-login" class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="signup.html">SIGN UP</a>
+                    </li>
+                    <li>
+                        <a href="login.html">LOG IN</a>
+                    </li>
+                </ul>
+                <ul id="nav-menu" class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="symptoms.html">SYMPTOMS</a>
+                    </li>
+                    <li>
+                        <a href="research.html">RESEARCH</a>
+                    </li>
+                    <li>
+                        <a href="upgrade.html">UPGRADE</a>
+                    </li>
+                </ul>               
+            </div>
+        </div>
+    </nav>
+
+	    <div class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Symptoms</h1>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons col-lg-4 col-lg-offset-4">
+                            <li>
+                                <a class="btn btn-default btn-lg" href="symptoms.html"><span class="network-name">Check Your Symptoms</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	</div>
+
+    	<br/><br/><br/>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">How Symptoms works</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <img class="img-responsive" src="img/1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Select the part of the symptoms</h2>
+                    <p>We have red dot button for each part of the body, select one what you want to check!</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    	<br/><br/><br/><br/>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Find out the potential diseases</h2>
+                    <p>After you select the button, a list of the possible symptoms with the potential diseases will pop out.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6 col-sm-6">
+                    <img class="img-responsive" src="img/3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    	<br/><br/><br/><br/>
+    
+    <div class="banner"></div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="symptoms.html">Symptoms</a>
+                        </li>
+                        <li class="footer-menu-divider">&#183;</li>
+                        <li>
+                            <a href="research.html">Research</a>
+                        </li>
+                        <li class="footer-menu-divider">&#183;</li>
+                        <li>
+                            <a href="upgrade.html">Upgrade</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Symptoms 2016. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-75736828-4', 'auto');
+	  ga('send', 'pageview');
+	</script>
+    
+</body>
+
+</html>
